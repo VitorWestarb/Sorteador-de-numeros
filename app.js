@@ -4,7 +4,7 @@ function sortear(){
     let ate = parseInt(document.getElementById('ate').value);
 
     if (de >= ate) {
-        alert('o numero no campo "do número" deve ser menor que o campo "até o número", por favor, digite os numeros novamente. ');
+        alert('o numero no campo "do número" deve ser menor que o campo "até o número", por favor, escolha novos numeros e digite os numeros novamente. ');
         return;
     }
 
